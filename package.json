@@ -1,0 +1,35 @@
+{
+  "name": "paldi-tamas-barber",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Páldi Tamás Barber — prémium férfi barber landing page (Next.js 16, Tailwind v4)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
+    "@vercel/analytics": "^2.0.1",
+    "framer-motion": "^14.12.0",
+    "lucide-react": "^1.71.0",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "resend": "^6.37.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@12.18.0"
+}
