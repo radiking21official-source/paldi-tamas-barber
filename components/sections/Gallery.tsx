@@ -12,7 +12,7 @@ export function Gallery() {
         <SectionTitle
           eyebrow="Inspiráció"
           title="Barber hangulat"
-          lead="Néhány hangulatkép — cseréld le őket saját munkáid fotóira. (Jelenleg Unsplash placeholder-ek.)"
+          lead="A szék, az eszközök és az a pár perc, amikor minden a helyére kerül."
         />
 
         {/* Desktop: masonry-szerű grid */}

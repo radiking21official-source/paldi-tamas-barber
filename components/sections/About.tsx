@@ -12,11 +12,11 @@ export function About() {
       className="relative py-24 md:py-32 px-6 lg:px-10 bg-bg-primary"
     >
       <div className="mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-        {/* Portré (placeholder) */}
+        {/* Portré */}
         <div className="relative aspect-[3/4] overflow-hidden border border-accent-gold/40">
           <Image
             src={PORTRAIT_IMAGE}
-            alt="Páldi Tamás — barber portré (placeholder)"
+            alt="Páldi Tamás barber portré"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover [filter:grayscale(0.7)_contrast(1.1)]"
