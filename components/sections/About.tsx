@@ -58,7 +58,7 @@ export function About() {
                 Helyszín
               </p>
               <p className="text-base">
-                {site.venue.name} · {site.venue.city}
+                {site.venue.name} · {site.venue.street}, {site.venue.city}
               </p>
             </div>
           </div>

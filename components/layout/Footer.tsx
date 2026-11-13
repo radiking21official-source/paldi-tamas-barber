@@ -53,7 +53,7 @@ export function Footer() {
           <div className="mt-4 flex items-center gap-2 text-sm text-text-secondary">
             <MapPin className="h-4 w-4 text-accent-gold" strokeWidth={1.5} />
             <span>
-              {site.venue.name} · {site.venue.city}
+              {site.venue.name} · {site.venue.street}, {site.venue.city}
             </span>
           </div>
         </div>

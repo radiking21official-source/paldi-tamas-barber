@@ -1,6 +1,7 @@
 /**
  * Szolgáltatások — Páldi Tamás Barber
- * Árak Ft-ban, minden szolgáltatáshoz opcionális Cal.com event slug.
+ * A Black Barber nyilvános árlistája alapján. Tamás egyéni szolgáltatásait
+ * indulás előtt érdemes még egyszer visszaigazolni.
  */
 
 export type Service = {
@@ -20,7 +21,7 @@ export const services: Service[] = [
     priceFt: 6700,
     priceLabel: "6 700 Ft",
     description: "Klasszikus vagy modern férfi hajvágás ollóval és géppel, fazon konzultációval.",
-    durationMin: 45,
+    durationMin: 30,
     calEventSlug: "hajvagas",
   },
   {
@@ -29,7 +30,7 @@ export const services: Service[] = [
     priceFt: 10000,
     priceLabel: "10 000 Ft",
     description: "Teljes szolgáltatás — hajvágás, szakállformázás, kontúrozás, meleg törölköző.",
-    durationMin: 75,
+    durationMin: 60,
     calEventSlug: "haj-szakall",
   },
   {
@@ -38,7 +39,7 @@ export const services: Service[] = [
     priceFt: 4000,
     priceLabel: "4 000 Ft",
     description: "Gyors, egy-fokozatú gépi vágás — ha csak egy tiszta, rövid frizura kell.",
-    durationMin: 25,
+    durationMin: 15,
     calEventSlug: "gepi-hajvagas",
   },
   {

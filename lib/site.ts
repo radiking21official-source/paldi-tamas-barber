@@ -18,25 +18,25 @@ export const site = {
     name: "Black Barber",
     city: "Budapest",
     country: "Hungary",
-    street: "", // TODO: Tamás-tól
-    postalCode: "", // TODO
-    mapUrl: "", // TODO: Google Maps link
+    street: "Páskomliget utca 8.",
+    postalCode: "1156",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Black+Barber+P%C3%A1skomliget+utca+8+Budapest",
   },
 
   // Kapcsolat (placeholder-ek — Tamás adja a valódit)
   contact: {
     email: "info@paldi-tamas-barber.hu",
-    phone: "", // TODO: tel: link-hez
+    phone: "+36 30 884 9706",
   },
 
   // Nyitvatartás — Tamás adja a valódit
   openingHours: {
     monday: "Zárva",
-    tuesday: "10:00 – 19:00",
-    wednesday: "10:00 – 19:00",
-    thursday: "10:00 – 19:00",
-    friday: "10:00 – 19:00",
-    saturday: "09:00 – 15:00",
+    tuesday: "10:00 – 20:00",
+    wednesday: "10:00 – 20:00",
+    thursday: "10:00 – 20:00",
+    friday: "10:00 – 20:00",
+    saturday: "10:00 – 20:00",
     sunday: "Zárva",
   },
 

@@ -11,6 +11,7 @@ export const booking = {
   calEventSlug: process.env.NEXT_PUBLIC_CAL_EVENT_SLUG ?? "",
   reservioUsername: process.env.NEXT_PUBLIC_RESERVIO_USERNAME ?? "",
   freshaSlug: process.env.NEXT_PUBLIC_FRESHA_SLUG ?? "",
+  directUrl: process.env.NEXT_PUBLIC_BOOKING_URL ?? "https://blackbarber.hu/idopont-foglalas/",
 } as const;
 
 export function bookingIframeUrl(eventSlug?: string): string {
@@ -21,6 +22,9 @@ export function bookingIframeUrl(eventSlug?: string): string {
       return `https://www.fresha.com/a/${booking.freshaSlug || "paldi-tamas"}`;
     case "cal":
     default: {
+      if (!booking.calUsername || booking.calUsername === "paldi-tamas") {
+        return booking.directUrl;
+      }
       const slug = eventSlug ?? booking.calEventSlug;
       return slug
         ? `https://cal.com/${booking.calUsername}/${slug}`
