@@ -49,14 +49,14 @@ export function Hero() {
             Árak megtekintése
           </Button>
         </div>
-        <div className="mt-12 flex flex-wrap gap-x-8 gap-y-2 text-xs uppercase tracking-[0.2em] text-text-muted">
+        <div className="mt-10 flex flex-col gap-2 text-xs uppercase tracking-[0.2em] text-text-muted sm:mt-12 sm:flex-row sm:gap-x-8 sm:gap-y-2">
           <span>Black Barber · Budapest</span><span>4+ év tapasztalat</span>
         </div>
         </div>
       </div>
 
       {/* Scroll cue */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-muted">
+      <div className="absolute bottom-10 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-text-muted md:flex">
         <span className="text-[10px] uppercase tracking-[0.3em]">Görgess</span>
         <span className="h-10 w-px bg-gradient-to-b from-accent-gold to-transparent" />
       </div>
